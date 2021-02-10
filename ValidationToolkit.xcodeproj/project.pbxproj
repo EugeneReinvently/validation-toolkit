@@ -71,10 +71,6 @@
 		FA725AB91FD1CB7100EFF4A4 /* AnyAsyncConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA725AB71FD1CB7100EFF4A4 /* AnyAsyncConstraint.swift */; };
 		FA725ABA1FD1CB7100EFF4A4 /* AnyAsyncConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA725AB71FD1CB7100EFF4A4 /* AnyAsyncConstraint.swift */; };
 		FA725ABB1FD1CB7100EFF4A4 /* AnyAsyncConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA725AB71FD1CB7100EFF4A4 /* AnyAsyncConstraint.swift */; };
-		FA8AC84320A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC84220A8541600741469 /* PredicateConstraint+ConstraintSet.swift */; };
-		FA8AC84420A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC84220A8541600741469 /* PredicateConstraint+ConstraintSet.swift */; };
-		FA8AC84520A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC84220A8541600741469 /* PredicateConstraint+ConstraintSet.swift */; };
-		FA8AC84620A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC84220A8541600741469 /* PredicateConstraint+ConstraintSet.swift */; };
 		FA8AC84C20A8585500741469 /* ConditionedAsyncConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC84B20A8585500741469 /* ConditionedAsyncConstraintTests.swift */; };
 		FA8AC84D20A8585500741469 /* ConditionedAsyncConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC84B20A8585500741469 /* ConditionedAsyncConstraintTests.swift */; };
 		FA8AC84E20A8585500741469 /* ConditionedAsyncConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC84B20A8585500741469 /* ConditionedAsyncConstraintTests.swift */; };
@@ -203,7 +199,6 @@
 		FA725AAD1FD1CAAC00EFF4A4 /* AnyConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyConstraint.swift; sourceTree = "<group>"; };
 		FA725AB21FD1CB4200EFF4A4 /* AsyncConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncConstraint.swift; sourceTree = "<group>"; };
 		FA725AB71FD1CB7100EFF4A4 /* AnyAsyncConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyAsyncConstraint.swift; sourceTree = "<group>"; };
-		FA8AC84220A8541600741469 /* PredicateConstraint+ConstraintSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PredicateConstraint+ConstraintSet.swift"; sourceTree = "<group>"; };
 		FA8AC84B20A8585500741469 /* ConditionedAsyncConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionedAsyncConstraintTests.swift; sourceTree = "<group>"; };
 		FA9064AB2056F9F3007B13D6 /* EmailPredicateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailPredicateTests.swift; sourceTree = "<group>"; };
 		FA9064AC2056F9F3007B13D6 /* BlockPredicateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPredicateTests.swift; sourceTree = "<group>"; };
@@ -468,7 +463,6 @@
 				FA725AA81FD1CA1900EFF4A4 /* Constraint.swift */,
 				FA725AAD1FD1CAAC00EFF4A4 /* AnyConstraint.swift */,
 				FADD5FA41D5A586B00ECACA1 /* PredicateConstraint.swift */,
-				FA8AC84220A8541600741469 /* PredicateConstraint+ConstraintSet.swift */,
 				FAA9C9C51FD460AD0034E790 /* ConditionedConstraint.swift */,
 			);
 			path = Constraints;
@@ -727,6 +721,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = FAB52B251D54EB8F00110049;
@@ -808,7 +803,6 @@
 				FAA9C9C91FD460AD0034E790 /* ConditionedConstraint.swift in Sources */,
 				FA655E9D1F49B53500563400 /* AsyncOperation.swift in Sources */,
 				FAE910661F4885190056339C /* ConditionedAsyncConstraint.swift in Sources */,
-				FA8AC84620A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */,
 				FA0B3A5D1D6CD31E00E8F2AD /* BlockPredicate.swift in Sources */,
 				FADE98B91F47F6D300C0185E /* AsyncPredicate.swift in Sources */,
 				FAA87CFF1D5CB93D00792F43 /* RegexPredicate.swift in Sources */,
@@ -838,7 +832,6 @@
 				FAA9C9C81FD460AD0034E790 /* ConditionedConstraint.swift in Sources */,
 				FA655E9C1F49B53500563400 /* AsyncOperation.swift in Sources */,
 				FAE910651F4885190056339C /* ConditionedAsyncConstraint.swift in Sources */,
-				FA8AC84520A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */,
 				FA0B3A5C1D6CD31C00E8F2AD /* BlockPredicate.swift in Sources */,
 				FADE98B81F47F6D300C0185E /* AsyncPredicate.swift in Sources */,
 				FAA87D041D5CB93E00792F43 /* RegexPredicate.swift in Sources */,
@@ -893,7 +886,6 @@
 				FAA9C9C71FD460AD0034E790 /* ConditionedConstraint.swift in Sources */,
 				FA655E9B1F49B53500563400 /* AsyncOperation.swift in Sources */,
 				FAE910641F4885190056339C /* ConditionedAsyncConstraint.swift in Sources */,
-				FA8AC84420A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */,
 				FA0B3A5B1D6CD31B00E8F2AD /* BlockPredicate.swift in Sources */,
 				FADE98B71F47F6D300C0185E /* AsyncPredicate.swift in Sources */,
 				FAA87CFA1D5CB93C00792F43 /* RegexPredicate.swift in Sources */,
@@ -948,7 +940,6 @@
 				FAA9C9C61FD460AD0034E790 /* ConditionedConstraint.swift in Sources */,
 				FA655E9A1F49B53500563400 /* AsyncOperation.swift in Sources */,
 				FAE910631F4885190056339C /* ConditionedAsyncConstraint.swift in Sources */,
-				FA8AC84320A8541600741469 /* PredicateConstraint+ConstraintSet.swift in Sources */,
 				FA00BE0F1D68470F004A38FE /* BlockPredicate.swift in Sources */,
 				FADE98B61F47F6D300C0185E /* AsyncPredicate.swift in Sources */,
 				FADD5FA51D5A586B00ECACA1 /* PredicateConstraint.swift in Sources */,
@@ -1032,7 +1023,7 @@
 				PRODUCT_NAME = ValidationToolkit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1056,7 +1047,7 @@
 				PRODUCT_NAME = ValidationToolkit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1079,7 +1070,7 @@
 				PRODUCT_NAME = ValidationToolkit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1102,7 +1093,7 @@
 				PRODUCT_NAME = ValidationToolkit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1117,7 +1108,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ValidationToolkitTests;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
@@ -1131,7 +1122,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ValidationToolkitTests;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
@@ -1156,7 +1147,7 @@
 				PRODUCT_NAME = ValidationToolkit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1180,7 +1171,7 @@
 				PRODUCT_NAME = ValidationToolkit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1195,7 +1186,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = ValidationToolkitTests;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1210,7 +1201,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = ValidationToolkitTests;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1349,7 +1340,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ValidationToolkit;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1369,7 +1360,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ValidationToolkit;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1379,7 +1370,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ValidationToolkitTests;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1389,7 +1380,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ValidationToolkitTests;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
